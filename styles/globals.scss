@@ -1,0 +1,70 @@
+//Tailwind
+@use "tailwindcss/base";
+@use "tailwindcss/components";
+@use "tailwindcss/utilities";
+
+.loading-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: loading 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loader {
+  width: 100px; /* control the size */
+  aspect-ratio: 8/5;
+  --_g: no-repeat radial-gradient(#000 68%,#0000 71%);
+  -webkit-mask: var(--_g),var(--_g),var(--_g);
+  -webkit-mask-size: 25% 40%;
+  background: red;
+  animation: load 2s infinite;
+}
+
+@keyframes load {
+
+  0%    {-webkit-mask-position: 0% 0%  ,50% 0%  ,100% 0%  }
+  16.67%{-webkit-mask-position: 0% 100%,50% 0%  ,100% 0%  }
+  33.33%{-webkit-mask-position: 0% 100%,50% 100%,100% 0%  }
+  50%   {-webkit-mask-position: 0% 100%,50% 100%,100% 100%}
+  66.67%{-webkit-mask-position: 0% 0%  ,50% 100%,100% 100%}
+  83.33%{-webkit-mask-position: 0% 0%  ,50% 0%  ,100% 100%}
+  100%  {-webkit-mask-position: 0% 0%  ,50% 0%  ,100% 0%  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #f8f9fa inset !important;
+  border: solid 1px #adb5bd !important;
+}
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  outline: #748ffc auto 1px !important;
+  border: transparent !important;
+}

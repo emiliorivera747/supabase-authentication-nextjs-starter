@@ -19,11 +19,7 @@ If you're looking to get started with Vite and Node.js, you've come to the right
    pnpm i
    ```
 
-3. **Navigate to the frontend directory and install dependencies**:
-   ```bash
-   cd frontend
-   pnpm i
-   ```
+3. **Rename example.env to file and add keys**:
 
 4. **Return to the project root directory**:
    ```bash

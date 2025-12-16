@@ -1,5 +1,5 @@
-## Vite and Node.js Starter template 
-If you're looking to get started with Vite and Node.js, you've come to the right place! Feel free to clone the repository and start building your new project.
+## Supabase and Next.js starter
+If you're looking to get started with a quick setup using Next.js and Supabase, you've come to the right place. This particular implementation uses Supabase solely for authentication, while the database is hosted elsewhere.
 
 ## Prerequisites
 
@@ -10,8 +10,10 @@ If you're looking to get started with Vite and Node.js, you've come to the right
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/react-vite-node-starter.git
-   cd react-vite-node-starter/
+   git clone https://github.com/emiliorivera747/supabase-authentication-nextjs-starter.git
+   ```
+   ```bash
+   cd supabase-authentication-nextjs-starter/
    ```
 
 2. **Install project dependencies**:
@@ -19,39 +21,21 @@ If you're looking to get started with Vite and Node.js, you've come to the right
    pnpm i
    ```
 
-3. **Navigate to the frontend directory and install dependencies**:
+3. **Rename example.env to file and add keys**:
+    You can get your Supabase keys from the API settings page within your project's dashboard on the [Supabase website](https://supabase.com/dashboard/sign-in?returnTo=%2Forg)
+    ```bash
+    NEXT_PUBLIC_SUPABASE_URL='<Public Supabase URL>'
+    NEXT_PUBLIC_SUPABASE_ANON_KEY='<Supabase Anon Key>'
+    NEXT_SUPABASE_SERVICE_ROLE=<Service Role Key>
+    DATABASE_URL="<Connection String>"
+    ```
+
+4. **Generate Schemas**:
    ```bash
-   cd frontend
-   pnpm i
+   pnpm prisma migrate dev
    ```
 
-4. **Return to the project root directory**:
-   ```bash
-   cd ..
-   ```
-
-5. **Navigate to the backend directory and install dependencies**:
-   ```bash
-   cd backend
-   npm i
-   ```
-
-6. **Return to the project root directory**:
-   ```bash
-   cd ..
-   ```
-
-7. **Start the development server**:
+5. **Start the development server**:
    ```bash
    npm run dev
    ```
-
-## Project Structure
-
-- `frontend/`: Contains the frontend code for the application.
-- `backend/`: Contains the backend code for the application.
-- `package.json`: Root-level configuration for scripts and dependencies.
-
-## Running the Application
-
-The `npm run dev` command starts both the frontend and backend development servers concurrently. Once running, you can access the application at `http://localhost:<port>` (check the console output for the exact port).

@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="flex justify-between p-4 border-b border-gray-200 mx-10">
       <Link href="/" className="flex h-full">
         {/* <img src="/logo.png" alt="Trellis Money Logo" className="h-10 mr-4" /> */}
-        <span className="text-xl font-bold">Trellis Money</span>
+        <span className="text-xl font-bold">Logo</span>
       </Link>
     </nav>
   );

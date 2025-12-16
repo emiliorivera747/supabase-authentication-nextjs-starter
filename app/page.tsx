@@ -22,16 +22,14 @@ export default async function Home() {
     <div className="bg-white h-screen">
       <nav className="flex justify-between p-4 border-b border-gray-200 mx-10">
         <div className="flex items-center">
-          {/* <img src="/logo.png" alt="Trellis Money Logo" className="h-10 mr-4" /> */}
-          <span className="text-xl font-bold text-tertiary-1000">Trellis Money</span>
+          <span className="text-xl font-bold">Logo</span>
         </div>
         {user ? <SignOutButton /> : <SignInButton />}
       </nav>
-      <header className="text-center   h-[25rem] items-center flex flex-col mt-[10%] bg-white">
-        <h1 className="text-3xl font-bold text-tertiary-900">Welcome to Trellis Money</h1>
-        <p className="mt-4 text-tertiary-800 mb-4">
-          Your personal finance management tool to track investments across all
-          accounts.
+      <header className="text-center h-[25rem] items-center flex flex-col mt-[10%] bg-white">
+        <h1 className="text-3xl font-bold">Welcome</h1>
+        <p className="mt-4 mb-4">
+          Hello, there!
         </p>
         {user ? (
           <Link
@@ -43,7 +41,7 @@ export default async function Home() {
         ) : (
           <Link
             href="/sign-up"
-            className="mt-4 px-8 py-4  transition duration-300 rounded-lg bg-primary-700 hover:bg-primary-900 text-white border-none cursor-pointer "
+            className="mt-4 px-8 py-4 transition duration-300 rounded-lg bg-primary-700 hover:bg-primary-900 text-white border-none cursor-pointer"
           >
             Get Started
           </Link>

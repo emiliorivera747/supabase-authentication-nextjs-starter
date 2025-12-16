@@ -1,4 +1,4 @@
-## Vite and Node.js Starter template 
+## Supabase and Next.js starter
 If you're looking to get started with Vite and Node.js, you've come to the right place! Feel free to clone the repository and start building your new project.
 
 ## Prerequisites

@@ -1,5 +1,5 @@
 ## Supabase and Next.js starter
-If you're looking to get started with Next.js and Supabase, you've come to the right place. This particular implementation uses Supabase solely for authentication, while the database is hosted elsewhere.
+If you're starting with Next.js and Supabase, you're in the right place. This setup uses Supabase only for authentication, with the database hosted elsewhere.
 
 ## Prerequisites
 

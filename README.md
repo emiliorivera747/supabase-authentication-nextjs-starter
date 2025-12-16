@@ -40,6 +40,4 @@ If you're looking to get started with Next.js and Supabase, you've come to the r
    npm run dev
    ```
 <img width="757" height="428" alt="Screenshot 2025-12-15 at 6 55 45 PM" src="https://github.com/user-attachments/assets/878d4e9a-1d45-40fb-9c65-3587e232aa13" />
-<img width="757" height="428" alt="Screenshot 2025-12-15 at 6 55 45 PM" src="https://github.com/user-attachments/assets/878d4e9a-1d45-40fb-9c65-3587e232aa13" />
-
  

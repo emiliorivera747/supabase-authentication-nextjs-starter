@@ -1,5 +1,5 @@
 ## Supabase and Next.js starter
-If you're looking to get started with Vite and Node.js, you've come to the right place! Feel free to clone the repository and start building your new project.
+If you're looking to get started with a quick setup using Next.js and Supabase, you've come to the right place. This particular implementation uses Supabase solely for authentication, while the database is hosted elsewhere.
 
 ## Prerequisites
 

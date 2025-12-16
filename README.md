@@ -39,3 +39,6 @@ If you're looking to get started with Next.js and Supabase, you've come to the r
    ```bash
    npm run dev
    ```
+
+  <img width="757" height="429" alt="Screenshot 2025-12-15 at 6 52 47 PM" src="https://github.com/user-attachments/assets/c4dd97fd-dda2-4104-9b48-e004a90debcc" />
+ 

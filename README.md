@@ -22,7 +22,7 @@ If you're looking to get started with Vite and Node.js, you've come to the right
    ```
 
 3. **Rename example.env to file and add keys**:
-    You can get your Supabase keys from the API settings page within your project's dashboard on the Supabase website
+    You can get your Supabase keys from the API settings page within your project's dashboard on the [Supabase website](https://supabase.com/dashboard/sign-in?returnTo=%2Forg)
     ```bash
     NEXT_PUBLIC_SUPABASE_URL='<Public Supabase URL>'
     NEXT_PUBLIC_SUPABASE_ANON_KEY='<Supabase Anon Key>'

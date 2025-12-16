@@ -13,7 +13,7 @@ If you're looking to get started with Vite and Node.js, you've come to the right
    git clone https://github.com/emiliorivera747/supabase-authentication-nextjs-starter.git
    ```
    ```bash
-     cd supabase-authentication-nextjs-starter/
+   cd supabase-authentication-nextjs-starter/
    ```
 
 2. **Install project dependencies**:
